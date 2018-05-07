@@ -13,7 +13,7 @@ function optionsframework_custom_scripts(){
 function exampletheme_options_after() { ?>
 	<div class="meta-box-right">
 		<p><strong>1. 网站图标</strong></p>
-		<p>网站采用 <a href="http://9iphp.com/fa-icons" target="_blank">FontAwesome 4</a> 图标，你可以选择更换自己喜欢的图标</p>
+		<p>网站采用 <a href="http://www.dayuzy.com/fontawesome-4-%E4%B8%AD%E7%9A%84%E5%9B%BE%E6%A0%87%E6%A0%B7%E5%BC%8Fcss%E5%8F%82%E8%80%83/" target="_blank">FontAwesome 4</a> 图标，你可以选择更换自己喜欢的图标</p>
 	</div>
 <?php
 }
