@@ -5,7 +5,7 @@
 				<?php echo get_the_post_thumbnail($post_id, 'full');?>
 			</div>
 		<?php }?>
-		<p><a title="首页" href="<?php echo get_option('home'); ?>/"><i class="fa fa-home"></i>首页</a> &raquo; <?php $cats = get_the_category(); $cat = $cats[0]; echo get_category_parents($cat->term_id,true," &raquo; "); ?>正文</p>
+		<p><a title="首页" href="<?php echo get_option('home'); ?>/"><i class="fa fa-home"></i>首页</a> &raquo; <?php $cats = get_the_category(); $cat = $cats[0]; if($cat->term_id){echo get_category_parents($cat->term_id,true," &raquo; ");} //要判断有没有父类ID?>正文</p>
 		<h1 class="entry-title">
 			<?php the_title(); ?>
 		</h1>
